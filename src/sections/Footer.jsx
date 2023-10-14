@@ -5,7 +5,7 @@ import Button from '../components/Button'
 
 const Footer = () => {
   return (
-    <footer className='padding-x'>
+    <footer id='footer' className='padding-x'>
       <div className='flex-1 flex flex-col sm:flex-row sm:gap-40 items-center justify-center'>
         <div>
           <img
@@ -28,9 +28,9 @@ const Footer = () => {
         </div>
         <div>
           <ul className='text-center'>
-            <li className='text-white font-medium mb-2 sm:mb-5 hover:text-LimeGreen cursor-pointer'>About Us</li>
+            <li className='text-white font-medium mb-2 sm:mb-5 hover:text-LimeGreen cursor-pointer'><a href="#about">About Us</a></li>
             <li className='text-white font-medium mb-2 sm:mb-5 hover:text-LimeGreen cursor-pointer'>Contact</li>
-            <li className='text-white font-medium mb-2 sm:mb-5 hover:text-LimeGreen cursor-pointer'>Blog</li>
+            <li className='text-white font-medium mb-2 sm:mb-5 hover:text-LimeGreen cursor-pointer'><a href="#LatestArticles">Blog</a></li>
           </ul>
         </div>
         <div>

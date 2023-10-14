@@ -4,7 +4,7 @@ import { imageconfetti,imagecurrency,imagemockups,imageplane,imagerstaurant, } f
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
-    { href: "#contact-us", label: "Contact" },
+    { href: "#footer", label: "Contact" },
     { href: "#LatestArticles", label: "Blog" },
     { href: "#", label: "Careers" },
 ];
